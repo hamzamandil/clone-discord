@@ -1,0 +1,42 @@
+.dark {
+  color: var(--color-dark);
+}
+.light {
+  color: var(--color-light);
+}
+.white {
+  color: var(--color-white);
+}
+.primary {
+  color: var(--color-primary);
+}
+
+.bg--dark {
+  background-color: var(--color-dark);
+}
+.bg--light {
+  background-color: var(--color-light);
+}
+.bg--white {
+  background-color: var(--color-white);
+}
+.bg--primary {
+  background-color: var(--color-primary);
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title--primary {
+  font-size: 4.8rem;
+}
+.title--secondary {
+  font-size: 4rem;
+}
+.title--tertiary {
+  font-size: 3.2rem;
+  font-weight: bold;
+}

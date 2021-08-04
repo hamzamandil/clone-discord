@@ -1,0 +1,43 @@
+.btn {
+  padding: 1.6rem 3.2rem;
+  color: var(--color-dark);
+  font-size: 2rem;
+  font-family: inherit;
+  font-weight: var(--font-medium);
+
+  cursor: pointer;
+  vertical-align: middle;
+  border-radius: 10rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+
+  transition-property: color, box-shadow, filter;
+  transition-duration: 0.3s;
+}
+.btn--small {
+  padding: 0.7rem 1.6rem;
+  font-size: 1.4rem;
+  font-weight: normal;
+  line-height: 1.6;
+}
+.btn--primary {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+.btn--light {
+  background-color: var(--color-white);
+}
+.btn--dark {
+  background-color: var(--color-dark);
+  color: var(--color-white);
+}
+.btn:hover {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  filter: brightness(110%) saturate(80%);
+}
+.btn--light:hover {
+  color: var(--color-primary);
+}
+.btn--dark:hover {
+  filter: contrast(80%);
+}

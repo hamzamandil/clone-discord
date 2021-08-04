@@ -1,0 +1,9 @@
+.container {
+  max-width: var(--container);
+  margin: auto;
+}
+.row {
+  padding: 0 var(--row-xpadding);
+  display: grid;
+  grid-template-columns: repeat(var(--column-number), 1fr);
+}
